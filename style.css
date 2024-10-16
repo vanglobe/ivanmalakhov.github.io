@@ -23,15 +23,6 @@ main {
   flex: 1; /* Takes up available space so footer stays at the bottom */
   padding: 50px;
   background-color: #fff;
-  max-width: 925px;
-  margin-left: auto;
-  margin-right: auto;
-  clear: both;
-  margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
-  animation: intro 0.3s both;
-  animation-delay:0.35s
 }
 
 /* Footer styling */
@@ -67,7 +58,7 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #000;
   font-size: 1.6em;
 }
 
@@ -155,23 +146,38 @@ section {
   padding: 20px;
 }
 
-.index ul {
+.index main {
+  flex: 1; /* Takes up available space so footer stays at the bottom */
+  padding: 50px;
+  background-color: #fff;
+  max-width: 925px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  margin-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  animation: intro 0.3s both;
+  animation-delay:0.35s
+}
+
+.contact ul {
   list-style-type: none; /* Removes default bullet points */
   padding: 0; /* Removes padding around the list */
   margin: 0; /* Removes margin around the list */
 }
 
-.index li {
+.contact li {
   margin-bottom: 10px; /* Adds space between each contact item */
 }
 
-.index a {
+.contact a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
   font-size: 1.6em;
 }
 
-.index a:hover {
+.contact a:hover {
   color: #ffd700; /* Changes color on hover */
 }
