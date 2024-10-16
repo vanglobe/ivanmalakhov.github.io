@@ -1,15 +1,46 @@
-/* Global Styles */
-body {
-  font-family: Arial, sans-serif;
-  color: #333;
+/* Reset browser margins and paddings */
+* {
   margin: 0;
   padding: 0;
-  background-color: #f4f4f4;
+  box-sizing: border-box;
 }
 
+/* Ensure body and html take full height */
+html, body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+/* Make the main container a flexbox with column layout */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure it covers full height of the viewport */
+}
+
+/* Main content should grow to fill available space */
+main {
+  flex: 1; /* Takes up available space so footer stays at the bottom */
+  padding: 50px;
+  background-color: #fff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Navigation header styling */
 header {
   background-color: #333;
   padding: 15px;
+  width: 100%;
 }
 
 header nav ul {
@@ -32,11 +63,6 @@ header nav ul li a {
 
 header nav ul li a:hover {
   color: #ffd700;
-}
-
-main {
-  padding: 50px;
-  background-color: #fff;
 }
 
 h1 {
@@ -65,11 +91,4 @@ section {
 
 .contact ul li a:hover {
   color: #ffd700;
-}
-
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 15px 0;
 }
