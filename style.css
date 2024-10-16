@@ -95,17 +95,23 @@ section {
 
 /* Ensure ordered list (publications) is aligned to the left */
 .publications {
-  text-align: left; /* Aligns the text in this section to the left */
-  padding: 20px;
+  text-align: left; /* Align text inside publications section to the left */
+  padding: 20px; /* Padding for some space around the section */
+}
+
+.publications h1 {
+  text-align: center; /* Center-align the "Publications" header */
+  margin-bottom: 30px; /* Add space between the header and the list */
 }
 
 .publications ol {
-  padding-left: 40px; /* Adds some padding to the left of the list */
+  padding-left: 40px; /* Adds padding to the left of the ordered list */
+  margin-top: 0; /* Removes any extra margin above the list */
 }
 
 .publications li {
   font-size: 2em;
-  line-height: 2em; /* Increases space between the lines for readability */
+  line-height: 1.6em; /* Adds space between lines for readability */
   margin-bottom: 15px; /* Adds space between each list item */
 }
 
