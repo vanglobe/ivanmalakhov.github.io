@@ -111,8 +111,8 @@ section {
 
 .publications li {
   font-size: 2em;
-  line-height: 1.6em; /* Adds space between lines for readability */
-  margin-bottom: 15px; /* Adds space between each list item */
+  line-height: 2em; /* Adds space between lines for readability */
+  margin-bottom: 25px; /* Adds space between each list item */
 }
 
 .publications a {
