@@ -132,3 +132,9 @@ section {
   height: 100vh; /* Full height of the viewport */
   border: none; /* Remove the border for a clean look */
 }
+
+/* Make bio text at home bigger */
+.index p {
+  font-size: 1.6em;
+  padding: 20px;
+}
