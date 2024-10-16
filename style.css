@@ -141,28 +141,28 @@ section {
 }
 
 /* Contact section */
-.contact {
+.index {
   text-align: center;
   padding: 20px;
 }
 
-.contact ul {
+.index ul {
   list-style-type: none; /* Removes default bullet points */
   padding: 0; /* Removes padding around the list */
   margin: 0; /* Removes margin around the list */
 }
 
-.contact li {
+.index li {
   margin-bottom: 10px; /* Adds space between each contact item */
 }
 
-.contact a {
+.index a {
   text-decoration: none;
   color: #333;
   font-weight: bold;
   font-size: 1.6em;
 }
 
-.contact a:hover {
+.index a:hover {
   color: #ffd700; /* Changes color on hover */
 }
