@@ -125,3 +125,10 @@ section {
 .publications a:hover {
   color: #ffd700;
 }
+
+/* Style for the iframe that contains the CV */
+.cv iframe {
+  width: 100%;
+  height: 100vh; /* Full height of the viewport */
+  border: none; /* Remove the border for a clean look */
+}
