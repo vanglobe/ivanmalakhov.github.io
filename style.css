@@ -92,3 +92,29 @@ section {
 .contact ul li a:hover {
   color: #ffd700;
 }
+
+/* Ensure ordered list (publications) is aligned to the left */
+.publications {
+  text-align: left; /* Aligns the text in this section to the left */
+  padding: 20px;
+}
+
+.publications ol {
+  padding-left: 40px; /* Adds some padding to the left of the list */
+}
+
+.publications li {
+  font-size: 1.1em;
+  line-height: 1.6em; /* Increases space between the lines for readability */
+  margin-bottom: 15px; /* Adds space between each list item */
+}
+
+.publications a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.publications a:hover {
+  color: #ffd700;
+}
